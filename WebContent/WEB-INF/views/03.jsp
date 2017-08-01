@@ -7,7 +7,18 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+    <h1>파라미터</h1>
+    
+   <p>http://localhost:????/eljstl/03?id=${param.id}&pw=${param.pw}&num=${param.num}&$num2=${param.num2} <br/>
+   	<hr/>
+   	\${param.id} == request.getParameter("id") --> ${param.id} <br/> 
+   	\${param.pw} == request.getParameter("pw") --> ${param.pw} <br/> 
+   	\${param.num} == request.getParameter("num") --> ${param.num} <br/> 
+   	\${param.num2} == request.getParameter("num2") --> ${param.num2} <br/> 
+   	<br/>
+   	num1 + num2 --> ${param.num1 + param.num2}
+   		
+   	</p>
 		
 		
 </body>
